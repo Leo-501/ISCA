@@ -1,0 +1,26 @@
+head {
+    
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    
+ 
+}
+
+@keyframes color-change {
+    
+    0% {color: red; }
+    25% {color:goldenrod; }
+    50% {color: blue; }
+    75% {color:blueviolet; }
+    100% {color: green; }
+
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    animation: color-change 2s infinite;
+    text-transform: uppercase;
+}
