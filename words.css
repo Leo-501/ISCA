@@ -1,0 +1,26 @@
+@keyframes color-change {
+
+    0% {color:yellow;}
+    50% {color: violet;}
+    100% {color: turquoise;}
+
+}
+
+b {
+ font-family: sans-serif;
+ font-size: 30px;
+ text-align: center;
+ animation: color-change 2s infinite;
+ text-transform: uppercase;
+ left: 40%;
+ position: absolute;
+ top: 60%;
+}
+
+img {
+    height: 100px;
+    left: 45%;
+    position: absolute;
+    top: 45%;
+    width: 100px;
+}
